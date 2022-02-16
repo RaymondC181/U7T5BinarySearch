@@ -4,7 +4,7 @@ public class BinarySearchRunner
   {
     // --- PART A: RUN AND STUDY ME! ---
     // Look at the code for binarySearch to see how it works!
-    
+
     //    index #: 0   1  2  3   4   5   6   7   8   9  10  11  12  13   14
     int[] arr = {-10, -6, 0, 2, 12, 14, 17, 23, 35, 45, 49, 55, 81, 100, 108};
     
@@ -39,25 +39,22 @@ public class BinarySearchRunner
     // test when the target is NOT in the array
     idx = BinarySearch.binarySearch(arr, 13);
     System.out.println("the number 13 was NOT found! " + idx);
-       
+
     // --- PART B: DETAILS! ---
     // When you are ready, uncomment each of these tests and run to see printed commentary
     // alongside every search; this prints out what is being checked and what is happening
-    
-    int[] arr1 = {-10, -6, 0, 2, 12, 14, 17, 23, 35, 45, 49, 55, 81, 100, 108};
-/*
+ /* int[] arr1 = {-10, -6, 0, 2, 12, 14, 17, 23, 35, 45, 49, 55, 81, 100, 108};
     // test when the target is in the middle (found on the first try!)
     int index = BinarySearch.binarySearchPrintedCommentary(arr1, 23);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
     // test when the target is found after TWO iterations 
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 55);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
+
     // test when the target is found after THREE iterations 
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 14);
     System.out.println(index);

@@ -20,19 +20,19 @@ public class SpellChecker
   }
 
   /** This uses LINEAR search to find a word in the dictionary ArrayList and also
-    * prints out the number of words checked.
-    *
-    * Instead of returning the index the word is found, it simply returns TRUE
-    * if the word is found, and FALSE otherwise.
-  */
+   * prints out the number of words checked.
+   *
+   * Instead of returning the index the word is found, it simply returns TRUE
+   * if the word is found, and FALSE otherwise.
+   */
   public boolean linearSpellCheck(String word)
   {
     int numChecks = 0;
-    
+
     for(int i=0; i < dictionary.size(); i++)
     {
       numChecks++;
-      
+
       if (word.equals(dictionary.get(i)))
       {
         System.out.println("-- LINEAR SEARCH: Number of words checked (loops/runtime): " + numChecks);
@@ -43,13 +43,13 @@ public class SpellChecker
     System.out.println("-- LINEAR SEARCH: Number of words checked (loops/runtime): " + numChecks);
     return false;
   }
-  
+
   /** This uses BINARY search to find a word in the dictionary ArrayList and also
-    * prints out the number of words checked.
-    *
-    * Instead of returning the index the word is found, it simply returns TRUE
-    * if the word is found, and FALSE otherwise.
-  */
+   * prints out the number of words checked.
+   *
+   * Instead of returning the index the word is found, it simply returns TRUE
+   * if the word is found, and FALSE otherwise.
+   */
   public boolean binarySpellCheck(String word)
   {
     /* IMPLEMENT ME! */
